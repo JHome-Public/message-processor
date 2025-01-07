@@ -1,0 +1,9 @@
+server:
+  port: 8092
+
+spring:
+  application:
+    name: message-processor
+
+  config:
+    import: optional:configserver:http://localhost:8889
